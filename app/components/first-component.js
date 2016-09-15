@@ -1,0 +1,1 @@
+export { default } from 'intl-addon-reproduce/components/first-component';
