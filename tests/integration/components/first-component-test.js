@@ -11,6 +11,6 @@ test('it renders', function(assert) {
 
   this.render(hbs`{{first-component}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$().text().trim(), 'Replaced translation: not_in_translations');
 
 });
